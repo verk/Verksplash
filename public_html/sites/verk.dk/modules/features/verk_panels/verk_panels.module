@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Verk panels feature.
+ */
+
+include_once('verk_panels.features.inc');

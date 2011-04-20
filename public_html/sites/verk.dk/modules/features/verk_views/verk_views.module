@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Verk views feature.
+ */
+
+include_once('verk_views.features.inc');
