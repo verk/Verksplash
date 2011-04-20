@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Verk image styles feature.
+ */
+
+include_once('verk_image_styles.features.inc');
