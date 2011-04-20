@@ -19,6 +19,14 @@ function verk_nodes_ctools_plugin_api() {
  */
 function verk_nodes_node_info() {
   $items = array(
+    'employee' => array(
+      'name' => t('Employee'),
+      'base' => 'node_content',
+      'description' => '',
+      'has_title' => '1',
+      'title_label' => t('Name'),
+      'help' => '',
+    ),
     'page' => array(
       'name' => t('Basic page'),
       'base' => 'node_content',
