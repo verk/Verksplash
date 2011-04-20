@@ -1,0 +1,11 @@
+*/log/*
+!*/log/README.txt
+*/tmp/*
+!*/tmp/README.txt
+*/sites/*/backup
+*/sites/*/files/*
+!*/sites/*/files/README.txt
+.DS_Store
+nbproject
+*~
+._*

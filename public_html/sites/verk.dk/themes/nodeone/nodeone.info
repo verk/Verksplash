@@ -1,0 +1,7 @@
+name = NodeOne DK theme
+description = The theme for NodeOne dk
+core = 7.x
+engine =  phptemplate
+base theme = precision
+
+stylesheets[all][] = styles/style.css
