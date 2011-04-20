@@ -316,7 +316,7 @@ function verk_panels_default_page_manager_pages() {
       'settings' => array(
         'id' => '',
         'class' => '',
-        'grid' => '16',
+        'grid' => '48',
         'prefix' => '',
         'suffix' => '',
         'pad' => '',

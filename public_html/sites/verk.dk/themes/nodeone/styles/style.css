@@ -63,6 +63,11 @@ a:hover {
   float: left;
   margin: 0 5px 0 0;
   height: 34px;
+  -webkit-border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid #32200F;
+  border-bottom: none;
 }
 
 .pane-page-primary-links ul li a {
@@ -75,16 +80,13 @@ a:hover {
   -moz-border-radius: 5px 5px 0 0;
   border-radius: 5px 5px 0 0;
   background-color: #32200F;
-  bottom: 1px solid #32200F;
+  border: 1px solid #32200F;
   border-bottom: none;
   color: #FFF;
 }
 
 .pane-page-primary-links ul li:hover,
 .pane-page-primary-links ul li.active {
-  -webkit-border-radius: 5px 5px 0 0;
-  -moz-border-radius: 5px 5px 0 0;
-  border-radius: 5px 5px 0 0;
   border: 1px solid #C2C4C2;
   border-bottom: none;
 }
@@ -110,6 +112,7 @@ a:hover {
   box-shadow: 0 0 5px rgba(0,0,0,0.5);
   position: relative;
   z-index: 0;
+  margin-bottom: 30px;
 }
 
 /**
@@ -146,4 +149,57 @@ a:hover {
 
 .page-closure .pane-content {
   padding: 10px;
+}
+
+/**
+ * People
+ */
+#people h2.pane-title, 
+.view-people .view-content {
+  padding: 10px;
+}
+
+.view-people td {
+  padding-bottom: 20px;
+}
+
+.view-people td.col-2 {
+  padding: 0 15px;
+}
+
+.view-people .image {
+  position: relative;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.view-people .image .name {
+  position: absolute;
+  background: rgba(0,0,0,0.7);
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  padding: 5px 10px;
+  color: #FFF;
+  text-align: center;
+}
+
+.view-people .image .name-inner {
+  display: inline-block;
+  text-align: left;
+}
+
+.view-people .image .name h3.title {
+  margin: 0;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.view-people .image .name .job-title {
+  font-size: 11px;
+  line-height: 11px;
+}
+
+.view-people .body {
+  font-size: 12px;
 }
