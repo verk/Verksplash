@@ -178,6 +178,77 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.view-people .image .social-links {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.view-people .image .social-links {
+  width: 280px;
+}
+
+.view-people .image .social-links a {
+  display: block;
+  width: 19px;
+  height: 18px;
+  float: right;
+  overflow: hidden;
+  background: url(../images/sprite-social-icons.png) no-repeat;
+  text-indent: -10000px;
+}
+
+.view-people .image .social-links .email a {
+  background-position: 0 0;
+}
+
+.view-people .image .social-links .email a:hover {
+  background-position: -29px 0;
+}
+
+.view-people .image .social-links .drupal a {
+  background-position: 0 -29px;
+}
+
+.view-people .image .social-links .drupal a:hover {
+  background-position: -29px -29px;
+}
+
+.view-people .image .social-links .twitter a {
+  background-position: 0 -58px;
+}
+
+.view-people .image .social-links .twitter a:hover {
+  background-position: -29px -58px;
+}
+
+.view-people .image .social-links .linkedin a {
+  background-position: 0 -87px;
+}
+
+.view-people .image .social-links .linkedin a:hover {
+  background-position: -29px -87px;
+}
+
+.view-people .image .social-links .facebook a {
+  background-position: 0 -116px;
+}
+
+.view-people .image .social-links .facebook a:hover {
+  background-position: -29px -116px;
+}
+
+
+.view-people .image .social-links .github a {
+  background-position: 0 -147px;
+}
+
+.view-people .image .social-links .github a:hover {
+  background-position: -30px -147px;
+}
+
+
+
 .view-people .image .name {
   position: absolute;
   background: rgba(0,0,0,0.7);
