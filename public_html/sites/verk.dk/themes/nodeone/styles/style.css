@@ -154,9 +154,14 @@ a:hover {
 /**
  * People
  */
-#people h2.pane-title, 
+
 .view-people .view-content {
   padding: 10px;
+}
+
+#people h2.pane-title {
+  margin: 0;
+  padding: 10px 10px 0;
 }
 
 .view-people td {
